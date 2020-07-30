@@ -1,0 +1,62 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .layout{
+    display: flex;
+    flex-direction: column;
+    color: #260603;
+  }
+  
+
+  header, footer{
+    background-color: #592715;
+    height: 50px;
+    padding-left: 20px;
+    color: white;
+  }
+  
+  section{
+    display: flex;
+    min-height: calc(100vh - 100px);
+  }
+  
+  nav{
+    background-color: #D98841;
+    flex-grow: 0.5;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-rows: 150px;
+  }
+   
+  article{
+    flex-grow: 6;
+    height: auto;
+    background-color: #D98841;
+    background-image: url("imagem_cafe.jpg");
+    background-size: contain;
+  }
+  
+  h1{
+    margin: 40px;
+    color: gray;
+  }
+
+  #imgnav{
+    height: 90px;
+  }
+
+  #navegador a {
+    color: #260603;
+    text-decoration: none;
+}
+
+#navegador a:hover {
+    color: white;
+    background-color: #592715;
+}
